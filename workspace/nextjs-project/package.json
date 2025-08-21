@@ -1,0 +1,53 @@
+{
+  "name": "nextjs-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ixeta/headless-auth-react": "^0.0.1",
+    "@ixeta/headless-auth-react-firebase": "^0.0.1",
+    "@mantine/core": "^7.17.3",
+    "@mantine/dates": "^7.17.3",
+    "@mantine/form": "^7.17.3",
+    "@mantine/hooks": "^7.17.3",
+    "@mantine/notifications": "^7.17.3",
+    "@mantine/tiptap": "^7.17.3",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tabler/icons-react": "^2.47.0",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tanstack/react-query": "^5.71.10",
+    "@tiptap/extension-highlight": "^2.11.7",
+    "@tiptap/extension-link": "^2.11.7",
+    "@tiptap/extension-subscript": "^2.11.7",
+    "@tiptap/extension-superscript": "^2.11.7",
+    "@tiptap/extension-text-align": "^2.11.7",
+    "@tiptap/extension-underline": "^2.11.7",
+    "@tiptap/pm": "^2.11.7",
+    "@tiptap/react": "^2.11.7",
+    "@tiptap/starter-kit": "^2.11.7",
+    "dayjs": "^1.11.13",
+    "firebase": "^11.6.0",
+    "next": "14.2.26",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-virtualized-auto-sizer": "^1.0.26",
+    "react-window": "^1.8.11",
+    "uuid": "^9.0.1",
+    "zustand": "^4.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.26",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

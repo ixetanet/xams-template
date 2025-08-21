@@ -1,0 +1,1 @@
+[{"tableName":"Role","data":[{"RoleId":"64589861-0481-4dbb-a96f-9b8b6546c40d","Name":"System Administrator","Discriminator":0},{"RoleId":"ca8f9473-d35e-4b9e-833f-e51c5204e8db","Name":"User","Discriminator":0}]}]
