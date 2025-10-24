@@ -14,7 +14,7 @@ public class RoutingUtil
         var path = context.Request.Path.Value;
     
         // Skip processing for actual files (js, css, images, etc.)
-        if (path == null || path.Contains('.') && !path.EndsWith(".html"))
+        if (path == null || string.IsNullOrEmpty(app.Environment.WebRootPath) || path.Contains('.') && !path.EndsWith(".html"))
         {
             await next();
             return;
