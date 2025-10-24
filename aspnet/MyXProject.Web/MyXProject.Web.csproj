@@ -16,7 +16,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.14" />
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
-        <PackageReference Include="Xams.Core" Version="1.0.20" />
+        <PackageReference Include="Xams.Core" Version="1.0.21" />
     </ItemGroup>
 
     <ItemGroup>
