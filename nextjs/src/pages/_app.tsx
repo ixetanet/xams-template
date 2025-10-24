@@ -31,6 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
           headers={{
             UserId: userId as string,
           }}
+          getAccessToken={undefined} // function to return bearer token for authenticated requests
         >
           <AppContextProvider>
             <Notifications />
