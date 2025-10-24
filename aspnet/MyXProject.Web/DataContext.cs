@@ -9,9 +9,10 @@ public class DataContext : XamsDbContext<AppUser>
     protected override void OnConfiguring(DbContextOptionsBuilder options) 
     {
         base.OnConfiguring(options);
-        var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? 
-                               throw new Exception("No Environment variable 'DB_CONNECTION_STRING'");
-        options.UseNpgsql(connectionString);
+        // var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? 
+        //                        throw new Exception("No Environment variable 'DB_CONNECTION_STRING'");
+        // options.UseNpgsql(connectionString);
+        options.UseSqlite("Filename=myxproject.sqlite3");
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
