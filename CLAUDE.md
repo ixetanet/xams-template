@@ -1,6 +1,14 @@
-# Xams MCP server
+🛑 HALT - READ THIS FIRST OR YOU WILL FAIL 🛑
 
-**CRITICAL** IMMEDITATELY read before doing anything else `xams://ref/instruct`.
+MANDATORY INITIALIZATION SEQUENCE:
+Step 1: Read `xams://ref/instruct` from the MCP server (it's installed)
+Step 2: Reply to user: "Xams initialization complete. I've learned: [summary]"
+Step 3: NOW proceed with their request
 
-If the Xams mcp server hasn't been added yet it can be added with:
-claude mcp add --transport http xams https://mcp.xams.io
+FORBIDDEN until steps 1-2 complete:
+❌ Do NOT plan
+❌ Do NOT explore files
+❌ Do NOT ask clarifying questions
+❌ Do NOT use Task, Glob, Grep, Read tools
+
+This is NON-NEGOTIABLE. No exceptions. Not even for "simple" requests.
